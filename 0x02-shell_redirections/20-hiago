@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'c' "b\b\b" | tr 'C' "b\b\b"
+tr -d 'c' | tr -d 'C'
