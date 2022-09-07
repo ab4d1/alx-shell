@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((POWER/DIVIDE))
+echo "$WATER + $STIR" | tr "waterstir" "432103210" | bc | tr "76543210" "bestchol"
