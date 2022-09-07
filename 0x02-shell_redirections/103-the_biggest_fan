@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 1 | sort | uniq -dc | sort -nr | head -n 11 | xargs | cut -d ' ' -f 2,4,6,8,10,12,14,16,18,20,22,24 | tr ' ' "\n"
+cut -f 1 | sort -r | uniq -dc | sort -nr | head -n 11 | xargs | cut -d ' ' -f 2,4,6,8,10,12,14,16,18,20,22,24 | tr ' ' "\n"
